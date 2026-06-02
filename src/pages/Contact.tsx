@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import { motion, Variants } from "framer-motion";
+import { motion } from "framer-motion";
+import type { Variants } from "framer-motion";
 import { Mail, Phone, MapPin, ArrowRight, Shield, Globe, Cpu, ExternalLink } from "lucide-react";
 import Navbar from "../component/Navbar";
 import { Footer, footerContact } from "../component/Footer";

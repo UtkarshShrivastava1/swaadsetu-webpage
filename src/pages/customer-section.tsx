@@ -216,7 +216,7 @@ export function CustomerSection() {
                     <IconComponent 
                       size={18} 
                       className="transition-colors duration-300"
-                      style={{ color: isActive ? "#000000" : "rgba(255,255,255,0.6)" }} 
+                      color={isActive ? "#000000" : "rgba(255,255,255,0.6)"} 
                     />
                   </div>
 
@@ -251,7 +251,7 @@ export function CustomerSection() {
             {/* Dynamic Card Displaying Performance Telemetry */}
             <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-b from-slate-900/80 to-slate-950/90 p-6 shadow-xl backdrop-blur-md">
               <div className="absolute top-0 right-0 p-4 opacity-10 pointer-events-none">
-                <currentFeature.icon size={120} style={{ color: currentFeature.color }} />
+                <currentFeature.icon size={120} color={currentFeature.color} />
               </div>
 
               <div className="space-y-4">
